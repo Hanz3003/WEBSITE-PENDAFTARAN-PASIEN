@@ -1,0 +1,278 @@
+body{
+    background-image: url(../img/backx.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+body{
+    background-color: #f0f0f0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+.full-height {
+    background: #74b2f458;
+    background-attachment: fixed;
+    max-height: 100vh;
+    height: 100vh;
+
+
+}
+table{
+    width: 100%;
+    padding-top: 5px;
+    animation: transitionIn-Y-bottom 0.5s;
+    
+    
+}
+.heading-text{
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 63px;
+    margin-top: 15%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.sub-text2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.register-btn{
+    background-color: rgba(240, 248, 255, 0.589);
+    color: #345cc4;
+}
+
+
+.edoc-logo{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 20px;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+.edoc-logo-sub{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 12px;
+
+}
+.navbar {
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+    background-color: rgba(0, 0, 0, 0.342); 
+    padding: 10px 0; 
+}
+
+.nav-item{
+    color: rgba(255, 255, 255, 0.671);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+.nav-item:hover{
+    color: #f0f0f0;
+
+}
+
+.footer-hashen{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    font-size: 13px;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 20px;
+    background-color: #007bff96;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.edoc-logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.edoc-logo-sub {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.nav-item:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.photo-gallery {
+    background-color: rgba(255, 255, 255, 0.752);
+    max-height: 100vh;
+    height: 100vh;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.photo-gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 9px #005eff9c;
+}
+
+.footer-description {
+    background-color: #007bff3c;
+    padding: 2px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footer-description h3, .footer-description p {
+    margin: 5px 0;
+}
+
+.login-btn {
+    padding: 10px 25px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 12px;
+    color: #ffffff;
+}
+
+.copyright {
+    font-size: 15px;
+    white-space: nowrap; 
+    padding: 20px;
+    margin: 60px 0 0 0;
+}
+.photo-gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 9px rgba(0, 94, 255, 0.6);
+    transition: transform 0.4s ease, box-shadow 0.4s ease; /* Tambahkan transisi untuk animasi */
+}
+
+/* Efek hover */
+.photo-gallery img:hover {
+    transform: scale(1.1); /* Perbesar gambar */
+    box-shadow: 0 10px 20px rgba(0, 94, 255, 0.8); /* Tambahkan bayangan */
+    filter: brightness(1.2); /* Sedikit tingkatkan kecerahan gambar */
+}
+.login-btn {
+    padding: 10px 25px;
+    background-color: #005eff; /* Warna latar awal */
+    color: white; /* Warna teks */
+    border: none; /* Hilangkan border */
+    border-radius: 5px; /* Sedikit melengkungkan sudut */
+    cursor: pointer; /* Ubah kursor menjadi pointer */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transisi untuk efek halus */
+}
+
+/* Efek hover */
+.login-btn:hover {
+    background-color: #0046cc; /* Ubah warna latar saat hover */
+    transform: scale(1.1); /* Perbesar tombol sedikit */
+}
+
+/* Efek saat tombol ditekan */
+.login-btn:active {
+    transform: scale(0.95); /* Sedikit perkecil saat ditekan */
+    background-color: #003399; /* Gelapkan warna latar */
+}
+html {
+    scroll-behavior: smooth;
+}
+
+table{
+    animation: transitionIn-Y-bottom 0.5s;
+}
+
+/* Navbar tetap di atas */
+
+/* Styling untuk tombol kembali ke atas */
+.back-to-top {
+    position: fixed;
+    bottom: 20px; /* Posisi dari bawah halaman */
+    right: 20px; /* Posisi dari kanan halaman */
+    background-color: #005eff;
+    color: white;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%; /* Membuat tombol bulat sempurna */
+    padding: 15px; /* Menyesuaikan ukuran tombol */
+    font-size: 24px; /* Ukuran panah yang lebih besar */
+    cursor: pointer;
+    display: flex; /* Tombol disembunyikan pada awalnya */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease;
+    text-align: center;
+    width: 50px;  /* Lebar tombol */
+    height: 50px; /* Tinggi tombol, harus sama dengan lebar untuk membuatnya bulat sempurna */
+}
+
+.arrow-up {
+    font-size: 25px; /* Ukuran panah */
+    line-height: 0; /* Menjaga posisi vertikal panah tetap rapi */
+}
+
+.back-to-top:hover {
+    background-color: #0046cc;
+}
