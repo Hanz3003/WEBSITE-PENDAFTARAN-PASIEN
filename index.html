@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animations.css">  
+    <link rel="stylesheet" href="css/main.css">  
+    <link rel="stylesheet" href="css/indexu.css">
+    <title>eDoc</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <span class="edoc-logo">e-Klinik. </span>
+            <span class="edoc-logo-sub">| WEBSITE PENDAFTARAN PASIEN ONLINE</span>
+        </div>
+        <div class="nav-links">
+            <a href="login.php" class="non-style-link"><p class="nav-item">LOGIN</p></a>
+            <a href="signup.php" class="non-style-link"><p class="nav-item">REGISTER</p></a>
+            <a href="#ALUR" class="non-style-link"><p class="nav-item">ALUR</p></a>
+            <a href="#kontak" class="non-style-link"><p class="nav-item">CONTACT</p></a>
+        </div>
+    </div>
+
+    <div class="full-height">
+        <center>
+            <table border="0">
+                <tr>
+                    <td colspan="3">
+                        <p class="heading-text">Hindari Kerumitan dan Keterlambatan Check-Up</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <p class="sub-text2">Bagaimana kesehatan hari ini, Kedengarannya tidak baik?<br>Jangan khawatir. Temukan dokter Anda secara online Book sesuai keinginan dengan e-Klinik. <br>Buat janji temu Anda sekarang..</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <center>
+                            <a href="login.php">
+                                <input type="button" value="Buat Janji Temu" class="login-btn btn-primary btn" style="padding-left: 25px;padding-right: 25px;padding-top: 10px;padding-bottom: 10px;">
+                            </a>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"></td>
+                </tr>
+            </table>
+        </center>
+    </div>
+
+    <!-- Galeri Foto -->
+    <section id="ALUR">
+        <div class="photo-gallery">
+            <img src="img/gallery/1.png" alt="Gallery Image 1">
+            <img src="img/gallery/2.png" alt="Gallery Image 2">
+            <img src="img/gallery/3.png" alt="Gallery Image 3">
+            <img src="img/gallery/4.png" alt="Gallery Image 4">
+        </div>
+    </section>
+
+    <section id="kontak">
+    <div class="footer-description">
+        <div class="footer-flex">
+            <div class="contact-details">
+                <h3>Kontak Kami</h3>
+                <p>Telp: (021) 123-4567</p>
+                <p>Email: infoeklinik@misal.com</p>
+                <p>Alamat: Jl.Jalan No. 30, Jambi, Indonesia</p>
+            </div>
+            <div class="copyright">
+                <p>© 2024 HanzMedia. Licensed under MIT License.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Tombol Kembali ke Atas -->
+    <button id="back-to-top" class="back-to-top">
+        <span class="arrow-up">𖤂</span>
+    </button>
+    <script>
+        // Mendapatkan tombol kembali ke atas
+        const backToTopButton = document.getElementById('back-to-top');
+
+        // Menampilkan tombol saat menggulir ke bawah
+        window.onscroll = function () {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block"; // Menampilkan tombol
+            } else {
+                backToTopButton.style.display = "none"; // Menyembunyikan tombol
+            }
+        };
+
+        // Saat tombol diklik, scroll ke atas
+        backToTopButton.onclick = function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" // Scroll halus
+            });
+        };
+
+    </script>
+</body>
+</html>
